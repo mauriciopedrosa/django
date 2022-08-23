@@ -54,7 +54,7 @@ ROOT_URLCONF = 'primer_django.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['virtual_3_9_13_django/proyecto_2/primer_django/primer_django/plantillas'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
